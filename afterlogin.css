@@ -1,0 +1,43 @@
+body{
+    background: url(audio_pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: initial;
+    overflow: auto;
+    {background:#2c2d2e;padding:38px 0 22px 0px;border-radius:18px;-moz-border-radius:18px;-webkit-border-radius:18px;box-shadow:0 1px 3px #b7b7b7;-moz-box-shadow:0 1px 3px #b7b7b7;-webkit-box-shadow:0 1px 3px #b7b7b7;behavior:url(js/PIE.htc);position:absolute;z-index:2;margin-top:-18px;width:100%;}
+    header {width:100%;padding-bottom:186px;position:relative}
+}
+
+.box{
+    margin: auto;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(45deg,#ff8585,#9900ff);
+    text-align: center;
+    border-radius: 3%;
+    border: white 1px solid;
+    box-shadow:
+    0 0 0.1vw  0.4vw #fff7f7,   
+    0 0 0.4vw  0.6vw #e97272, 
+    0 0   4vw  0.4vw #e50b0b,
+    inset 0 0 1.5vw  0.4vw #e50b0b,
+    inset 0 0 0.4vw  0.2vw #e97272,
+    inset 0 0 0.5vw  0.2vw #fff7f7;
+}
+
+body h1{
+    color: wheat;
+    text-align: center;
+
+}
+
+.audiplay{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
